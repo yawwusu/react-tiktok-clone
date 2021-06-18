@@ -1,6 +1,7 @@
 import React from "react";
 import "./Video.css";
 import VideoFooter from "./VideoFooter";
+import VideoSidebar from "./VideoSidebar";
 
 function Video() {
   const [playing, setPlaying] = React.useState(false);
@@ -30,6 +31,7 @@ function Video() {
         description="nyansani"
         song="DJ Acouzo - song"
       />
+      <VideoSidebar likes={200} messages={432} shares={303} />
     </div>
   );
 }
