@@ -1,9 +1,15 @@
 import "./App.css";
+import Video from "./Video";
 
 function App() {
   return (
     <div className="App">
-      <h1>Let's build a Tik Tok Clone</h1>
+      <div className="App-videos">
+        <Video />
+        <Video />
+        <Video />
+        <Video />
+      </div>
     </div>
   );
 }

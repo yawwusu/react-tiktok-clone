@@ -1,0 +1,22 @@
+.App {
+  background-color: black;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.App-videos {
+  position: relative;
+  height: 90vh;
+  overflow: scroll;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.App-videos::-webkit-scrollbar {
+  display: none;
+}
